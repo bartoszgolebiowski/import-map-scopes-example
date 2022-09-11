@@ -1,0 +1,1 @@
+https://codesandbox.io/p/github/bartoszgolebiowski/import-map-scopes-example/draft/modern-river
