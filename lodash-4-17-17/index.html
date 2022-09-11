@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Import map scopes</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://cdn.skypack.dev" />
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://cdn.skypack.dev/react",
+          "react-dom": "https://cdn.skypack.dev/react-dom",
+          "react-router": "https://cdn.skypack.dev/react-router",
+          "react-router-dom": "https://cdn.skypack.dev/react-router-dom",
+          "lodash": "https://cdn.skypack.dev/lodash"
+        },
+        "scopes": {
+          "/lodash-4-17-20/": {
+            "lodash": "https://cdn.skypack.dev/lodash@4.17.20"
+          },
+          "/lodash-4-17-19/": {
+            "lodash": "https://cdn.skypack.dev/lodash@4.17.19"
+          },
+          "/lodash-4-17-18/": {
+            "lodash": "https://cdn.skypack.dev/lodash@4.17.18"
+          },
+          "/lodash-4-17-17/": {
+            "lodash": "https://cdn.skypack.dev/lodash@4.17.17"
+          },
+          "/lodash-4-17-16/": {
+            "lodash": "https://cdn.skypack.dev/lodash@4.17.16"
+          }
+        }
+      }
+    </script>
+    <script type="module" crossorigin src="./assets/index.0ab933d8.js"></script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
